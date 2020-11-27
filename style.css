@@ -40,9 +40,9 @@ main {
 }
 
 #searchbar {
-    width: 55vh;
+    width: 60vh;
     margin: 40px 0px;
-    height: 2.8em;
+    height: 3em;
     border-radius: 20px;
     border: 0.3px solid gray;
     outline: none;
