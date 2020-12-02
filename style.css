@@ -9,3 +9,30 @@ body {
     min-width: 100%;
     width: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    text-align: right;
+    font-size: 13px;
+}
+
+#navlist {
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.navele {
+    margin: 0px 10px;
+}
+
