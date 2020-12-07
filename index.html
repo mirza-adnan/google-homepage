@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav id="navbar">
         <ul id="navlist">
             <li><a class="navele" href="#">Gmail</a></li>
             <li><a class="navele" href="#">Images</a></li>
-            <li><a class="navele" href="#"><img width="30px" height="30px" src="googleapps.png" alt="Google Apps"></a></li>
-            <li><button class="navele" type="button">Sign In</button></li>
+            <li><a class="navele" href="#"><img width="25px" height="25px" src="googleapps.png" alt="Google Apps"></a>
+            </li>
+            <li><button id="signin" class="navele" type="button">Sign In</button></li>
         </ul>
     </nav>
     <main id="menu">
-        <img id="logo" src="googlelogo.png" alt="Google Logo">
+        <div id="logodiv">
+            <img id="logo" src="googlelogo.png" alt="Google Logo">
+        </div>
         <form action="">
-            <input type="search" name="search" id="search">
+            <input type="text" name="search" id="search">
         </form>
-            <div id="buttons">
-                <button type="submit" class="button">Google Search</button>
-                <button type="submit" class="button">I'm Feeling Lucky</button>
-            </div>
-            <p>Google offered in: <a href="#">English</a></p>
+        <div id="buttons">
+            <button type="submit" class="button">Google Search</button>
+            <button type="submit" class="button">I'm Feeling Lucky</button>
+        </div>
+        <p>Google offered in: <a href="#">English</a></p>
     </main>
     <footer id="bottom">
         <div id="location">
-            <p>Bangladesh</p>
+            <p class="location">Bangladesh</p>
         </div>
         <div id="info">
-            <ul>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">How Search Works</a></li>
-            </ul>
+                <a class="first" href="#">Advertising</a>
+                <a class="others" href="#">Business</a>
+                <a class="others" href="#">About</a>
+                <a class="others" href="#">How Search works</a>
         </div>
     </footer>
 </body>
+
 </html>
