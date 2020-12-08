@@ -79,9 +79,15 @@ ul {
     border: 1px solid lightgray;
     border-radius: 70px;
     margin: 20px 0px;
+    padding: 0px 8px 0 16px;
+
 }
 
 #search:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#search:focus {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 
