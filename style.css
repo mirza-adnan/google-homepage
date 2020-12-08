@@ -73,13 +73,15 @@ ul {
 
 #search {
     width: 582px;
-    height: 40px;
-    line-height: 40px;
+    height: 42px;
+    line-height: 42px;
     outline: none;
     border: 1px solid lightgray;
     border-radius: 70px;
     margin: 20px 0px;
     padding: 0px 8px 0 16px;
+    font-size: 16px;
+    font-weight: 100;
 
 }
 
@@ -145,6 +147,8 @@ ul {
     font-size: 14px;
     background-color: #f2f2f2;
     border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
 }
 
 #info a {
@@ -163,3 +167,8 @@ ul {
 .others {
     margin-left: 23px;
 }
+
+.left {
+    margin-right: 27px;
+}
+
