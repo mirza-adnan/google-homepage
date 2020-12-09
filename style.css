@@ -119,6 +119,10 @@ ul {
     margin-top: 15px;
 }
 
+#menu p a:hover {
+    text-decoration: underline;
+}
+
 #menu a {
     text-decoration: none;
 }
